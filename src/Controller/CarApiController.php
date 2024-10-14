@@ -20,7 +20,7 @@ class CarApiController extends AbstractController
                     'id' => 1,
                     'name' => 'Toyota',
                 ],
-                'photo' => 'https://example.com/photos/car1.jpg',
+                'photo' => 'https://yandex.ru/photos/car1.jpg',
                 'price' => 20000,
             ],
             [
@@ -29,7 +29,7 @@ class CarApiController extends AbstractController
                     'id' => 2,
                     'name' => 'Honda',
                 ],
-                'photo' => 'https://example.com/photos/car2.jpg',
+                'photo' => 'https://yandex.ru/photos/car2.jpg',
                 'price' => 25000,
             ],
         ];
