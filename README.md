@@ -4,10 +4,9 @@ TradeDealer Backend Test Task
 ## Установка и воспроизведение
 
 1. клонируйте репозиторий на свой локальный компьютер:  
-   ``` 
-   git clone git@github.com:denisparamon/TradeDealer_Backend_Test_Task.git
-   ```
-   
+``` 
+git clone git@github.com:denisparamon/TradeDealer_Backend_Test_Task.git
+```
 2. Запустите следующие команды для создания и запуска контейнеров Docker:  
 ``` 
 docker compose up -d --build
