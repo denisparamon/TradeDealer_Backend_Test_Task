@@ -4,10 +4,9 @@ TradeDealer Backend Test Task
 ## Установка и воспроизведение
 
 1. клонируйте репозиторий на свой локальный компьютер:  
-   ``` 
-   git clone git@github.com:denisparamon/TradeDealer_Backend_Test_Task.git
-   ```
-   
+``` 
+git clone git@github.com:denisparamon/TradeDealer_Backend_Test_Task.git
+```
 2. Запустите следующие команды для создания и запуска контейнеров Docker:  
 ``` 
 docker compose up -d --build
@@ -16,14 +15,17 @@ docker compose up -d --build
 ```
 docker ps
 ```
-4. Перейдите в директорию проекта и запустите встроенный сервер следующим образом:
+4. Установите зависимости проекта
 ```
-symfony serve
+composer install
 ```
-
-5. Используйте команду в терминале или Postman чтобы дернуть Апи Ручку 
+5. Перейдите в директорию проекта и запустите встроенный сервер следующим образом:
 ```
-http://localhost:8000/api/v1/cars
+symfony serve --no-tls
+```
+6. Используйте команду в терминале или Postman чтобы дернуть Апи Ручку 
+```
+curl http://localhost:8000/api/v1/cars
 ```
 
 Требования:  
