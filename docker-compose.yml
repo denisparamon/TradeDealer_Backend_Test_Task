@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  db:  # Имя вашего сервиса базы данных
+    image: mariadb:latest  # Убедитесь, что образ указан правильно
+    container_name: symfony_db
+    environment:
+      MYSQL_ROOT_PASSWORD: 1111
+      MYSQL_DATABASE: symfony
+      MYSQL_USER: symfony
+      MYSQL_PASSWORD: 1111
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    networks:
+      - symfony
+
+volumes:
+  db_data:
+
+networks:
+  symfony:
