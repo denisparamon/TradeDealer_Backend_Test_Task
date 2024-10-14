@@ -3,7 +3,7 @@ TradeDealer Backend Test Task
 
 ## Установка и воспроизведение
 
-1. клонируйте репозиторий на свой локальный компьютер:  
+1. Клонируйте репозиторий на свой локальный компьютер:  
 ``` 
 git clone git@github.com:denisparamon/TradeDealer_Backend_Test_Task.git
 ```
