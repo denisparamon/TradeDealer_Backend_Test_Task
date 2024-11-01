@@ -1,3 +1,8 @@
+Если вы ищете готовое решение, то может быть он вам поможет
+https://github.com/kircheson/tradedealer_test?tab=readme-ov-file
+Я еще - дилетант от слова "совсем" :) и да - они мне, ЕСТЕСТВЕННО, сразу отказали 
+
+
 # TradeDealer_Backend_Test_Task
 TradeDealer Backend Test Task
 
