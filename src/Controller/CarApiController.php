@@ -8,11 +8,10 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class CarApiController extends AbstractController
 {
-    // Получение списка автомобилей
     #[Route('/api/v1/cars', name: 'get_all_cars', methods: ['GET'])]
     public function getAllCars(): JsonResponse
+
     {
-        // Пример данных. Здесь можно интегрировать реальную базу данных
         $cars = [
             [
                 'id' => 1,
